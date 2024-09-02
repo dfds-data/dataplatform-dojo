@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  airflow-ds:
+    build: .
+    ports:
+      - "8080:8080"
+    restart: always
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
