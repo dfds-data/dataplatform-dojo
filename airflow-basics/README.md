@@ -11,7 +11,7 @@ You should set aside 1-3 hours to complete the exercises and get familiar with t
 ## 🧠 Exercises
 *There are relatively few hints next to the exercises. Use any resource you want to find a solution, there are many different ways to solve the exercises below.*
 
-1. Run Airflow in a Docker container and log-in
+1. Run Airflow in a Docker container and log in
 1. Enable the example DAGs and run one
 1. Create a new DAG that prints "Hello, World!" to the logs
 1. Create a new dynamic DAG. The dag should create all permutations of `[a, b, c]` tasks.
