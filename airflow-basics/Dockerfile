@@ -22,5 +22,5 @@ WORKDIR $AIRFLOW_USER_HOME
 
 COPY simple_auth_manager_passwords.json.generated .
 
-ENTRYPOINT [ "airflow" ]
-CMD standalone
+ENTRYPOINT ["airflow"]
+CMD ["standalone"]
