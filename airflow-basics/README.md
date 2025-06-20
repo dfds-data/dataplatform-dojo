@@ -45,8 +45,8 @@ docker compose up -d
 
 ### Airflow
 #### with a pre-configure user
-log in: `airflow`
-password: `airflow`
+log in: `admin`
+password: `admin`
 #### without configuring a new user
 log in: admin
 password: `cat standalone_admin_password.txt`
